@@ -1,1 +1,1 @@
-# site_escola
+# site-colegio
