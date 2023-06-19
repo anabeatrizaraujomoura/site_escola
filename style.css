@@ -1,23 +1,26 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+
 .cabecalho {
     background-color: rgb(175, 84, 179, 0.867);
     color: hwb(330 5% 94%);
     display:flex;
     justify-content: space-around;
+    align-items: center;
     padding: 24px 0;
 }
 .cabecalho-imagem{
     width: 20%;
 }
+
 .cabecalho-lista-item{
     display:inline-block;
- margin: 0 16px;
- padding: 24px 0;
- font-size: 24px;
+    margin: 0 16px;
+    font-size: 24px;
 }
-* {
-  margin: 0;
-  padding: 0;
-}
+
 .escola-imagem{
     width:25%;
 }
@@ -29,9 +32,18 @@
     align-items: center;
     padding: 24px 0;
 }
-.escola-conteudo{
+.escola-div-conteudo{
     width: 35%
 }
 .escola-titulo{
     padding: 24px 0;
+}
+.rodape{
+    background-color:black
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
 }
